@@ -20,9 +20,10 @@ table, thead+tbody{
     text-align: center;
 }
 
-.card ~ div{
-    text-align: left;
+label ~ input{
+    display: flex;
+    text-align: center;
 }
 
 
-/* . # > + , */
+/* . # > + , ~*/
