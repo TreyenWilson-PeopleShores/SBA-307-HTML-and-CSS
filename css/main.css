@@ -11,3 +11,13 @@
 .image2{
     margin-left: auto;
 }
+
+#nav-button{
+    color: rgb(47, 66, 37);
+}
+
+div+p{
+    color: aliceblue;
+}
+
+/*. # >*/
