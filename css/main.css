@@ -14,7 +14,14 @@
 
 #nav-button{
     color: rgb(47, 66, 37);
+    transition-property: background-color;
+    transition-duration: 2s;
 }
+#nav-buttonn:hover{
+    background-color: rgb(89, 255, 0);
+}
+
+
 
 table, thead+tbody{
     text-align: center;
@@ -25,5 +32,26 @@ label ~ input{
     text-align: center;
 }
 
+@keyframes Animation1{
+    from {background-color: white;}
+    to {background-color: rgb(21, 38, 85);}
+}
+@keyframes Animation2{
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: rgb(150, 146, 146);}
+}
+
+
+
+input{
+    background-color: rgb(253, 253, 253);
+    animation-name: Animation1;
+    animation-duration: 20s;
+}
+
+body{
+    animation-name: Animation2;
+    animation-duration: 5s;
+}
 
 /* . # > + , ~*/
