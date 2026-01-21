@@ -16,8 +16,13 @@
     color: rgb(47, 66, 37);
 }
 
-div+p{
-    color: aliceblue;
+table, thead+tbody{
+    text-align: center;
 }
 
-/*. # >*/
+.card ~ div{
+    text-align: left;
+}
+
+
+/* . # > + , */
