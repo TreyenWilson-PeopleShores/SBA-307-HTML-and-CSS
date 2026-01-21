@@ -1,0 +1,13 @@
+
+
+.images{
+    display: flex;
+}
+
+.image1{
+    margin-right: auto;
+}
+
+.image2{
+    margin-left: auto;
+}
